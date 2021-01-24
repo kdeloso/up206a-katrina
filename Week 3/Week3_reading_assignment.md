@@ -3,5 +3,3 @@
 
 
 ![Geoff Boeing](https://pbs.twimg.com/profile_images/798625331418570752/3Xu7Xzx__400x400.jpg)
-
-!Geoff Boeing] (https://pbs.twimg.com/profile_images/798625331418570752/3Xu7Xzx__400x400.jpg)
