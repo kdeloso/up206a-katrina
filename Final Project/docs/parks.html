@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dc601753779a4fbcaad79a1cdceb8f63 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_dc601753779a4fbcaad79a1cdceb8f63" ></div>
+        
+</body>
+<script>    
+    
+            var map_dc601753779a4fbcaad79a1cdceb8f63 = L.map(
+                "map_dc601753779a4fbcaad79a1cdceb8f63",
+                {
+                    center: [34.0522, -118.2437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    attribution: "CartoDB",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fd8ae0c5aab14def9f892c04946a0aba = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var marker_ce9ace3c60b1428bb2c5bfde3fbd5f60 = L.marker(
+                [34.5347, -118.6108],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_cebc0d53dbee450e935b2aaf6f66f244 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce9ace3c60b1428bb2c5bfde3fbd5f60.setIcon(icon_cebc0d53dbee450e935b2aaf6f66f244);
+        
+    
+            marker_ce9ace3c60b1428bb2c5bfde3fbd5f60.bindTooltip(
+                `<div>
+                     Castaic Lake State Recreation Area
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_757d0672876145318ccc7ddf00ee2ba8 = L.marker(
+                [34.4341, -118.5226],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_7f598d02d1d3436c894f31b689b19203 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_757d0672876145318ccc7ddf00ee2ba8.setIcon(icon_7f598d02d1d3436c894f31b689b19203);
+        
+    
+            marker_757d0672876145318ccc7ddf00ee2ba8.bindTooltip(
+                `<div>
+                     Central Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fe4c3f3614748cabf5870bde53d923b = L.marker(
+                [33.8097, -118.0868],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_d0c57949084e489a95f2a7f4f5d09a80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3fe4c3f3614748cabf5870bde53d923b.setIcon(icon_d0c57949084e489a95f2a7f4f5d09a80);
+        
+    
+            marker_3fe4c3f3614748cabf5870bde53d923b.bindTooltip(
+                `<div>
+                     El Dorado Regional Park East
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7920b0e27e5249adb2b64eb9c11a6d7a = L.marker(
+                [33.8072, -118.0946],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_e3b79217d12b4132b1eda5151e0a754c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7920b0e27e5249adb2b64eb9c11a6d7a.setIcon(icon_e3b79217d12b4132b1eda5151e0a754c);
+        
+    
+            marker_7920b0e27e5249adb2b64eb9c11a6d7a.bindTooltip(
+                `<div>
+                     El Dorado Regional Park West
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd9f5fca21414edc817347f76c099f3a = L.marker(
+                [34.082, -118.2496],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_3749ff336b864e149b04eee7af99c400 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd9f5fca21414edc817347f76c099f3a.setIcon(icon_3749ff336b864e149b04eee7af99c400);
+        
+    
+            marker_dd9f5fca21414edc817347f76c099f3a.bindTooltip(
+                `<div>
+                     Elysian Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_002fba85ac3243df9df4ff64d728b986 = L.marker(
+                [34.0912, -118.1932],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_00591fbe98214ec0946bc8622f7d9833 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_002fba85ac3243df9df4ff64d728b986.setIcon(icon_00591fbe98214ec0946bc8622f7d9833);
+        
+    
+            marker_002fba85ac3243df9df4ff64d728b986.bindTooltip(
+                `<div>
+                     Ernest E. Debs Regional Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fafa52d5e6c4961993b1ed2b2217cef = L.marker(
+                [34.0772, -117.8101],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_fd80a3abdb1d478d89086b491e801358 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7fafa52d5e6c4961993b1ed2b2217cef.setIcon(icon_fd80a3abdb1d478d89086b491e801358);
+        
+    
+            marker_7fafa52d5e6c4961993b1ed2b2217cef.bindTooltip(
+                `<div>
+                     Frank Bonelli Regional Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5911da4225824a7d96093bcd97cb762d = L.marker(
+                [34.117, -118.2979],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_688990103fae4c45867a8d8d3665b5c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5911da4225824a7d96093bcd97cb762d.setIcon(icon_688990103fae4c45867a8d8d3665b5c6);
+        
+    
+            marker_5911da4225824a7d96093bcd97cb762d.bindTooltip(
+                `<div>
+                     Griffith Park 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d2315f6f85e4eba8fa80341f7609d62 = L.marker(
+                [34.1093, -118.3076],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_d9b3df5b1dae42d0a4542f6d382288bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9d2315f6f85e4eba8fa80341f7609d62.setIcon(icon_d9b3df5b1dae42d0a4542f6d382288bf);
+        
+    
+            marker_9d2315f6f85e4eba8fa80341f7609d62.bindTooltip(
+                `<div>
+                     Griffith Park 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_779b77fcf4fa408188f4a6c7dc89e39b = L.marker(
+                [34.1943, -118.1777],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_89de78cb440a464eac59aac52c8a3e56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_779b77fcf4fa408188f4a6c7dc89e39b.setIcon(icon_89de78cb440a464eac59aac52c8a3e56);
+        
+    
+            marker_779b77fcf4fa408188f4a6c7dc89e39b.bindTooltip(
+                `<div>
+                     Hahamonga Watershed Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8aa5e8b2529f48069cdc22888cb3a083 = L.marker(
+                [34.2708, -118.3899],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_34dcf54cb8d741d98d5470e770a4b17b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8aa5e8b2529f48069cdc22888cb3a083.setIcon(icon_34dcf54cb8d741d98d5470e770a4b17b);
+        
+    
+            marker_8aa5e8b2529f48069cdc22888cb3a083.bindTooltip(
+                `<div>
+                     Hansen Dam Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab45d4ae10274487b8167a78461d2e7a = L.marker(
+                [33.8306, -118.1197],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_7bb1127c28ea4555b208291782b14742 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab45d4ae10274487b8167a78461d2e7a.setIcon(icon_7bb1127c28ea4555b208291782b14742);
+        
+    
+            marker_ab45d4ae10274487b8167a78461d2e7a.bindTooltip(
+                `<div>
+                     Heartwell Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf14be8b5284412cadb08e571513cff8 = L.marker(
+                [33.7823, -118.2955],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_66c2d15eb42747a2a56adf2baac2469e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cf14be8b5284412cadb08e571513cff8.setIcon(icon_66c2d15eb42747a2a56adf2baac2469e);
+        
+    
+            marker_cf14be8b5284412cadb08e571513cff8.bindTooltip(
+                `<div>
+                     Ken Malloy Harbor Regional Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35f7882a1f134ac6a36f8fdc29d28a8e = L.marker(
+                [34.0123, -118.3718],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_d33589ae7bf341e0bc253becfa5f0f04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35f7882a1f134ac6a36f8fdc29d28a8e.setIcon(icon_d33589ae7bf341e0bc253becfa5f0f04);
+        
+    
+            marker_35f7882a1f134ac6a36f8fdc29d28a8e.bindTooltip(
+                `<div>
+                     Kenneth Hahn State Recreation Area
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_945c7d49a79b42249edf7e9057303986 = L.marker(
+                [33.9904, -117.929],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_3e9a9d9ae7794d9484f1c2e27ae279cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_945c7d49a79b42249edf7e9057303986.setIcon(icon_3e9a9d9ae7794d9484f1c2e27ae279cb);
+        
+    
+            marker_945c7d49a79b42249edf7e9057303986.bindTooltip(
+                `<div>
+                     Peter F. Schabarum Regional County Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e022651e16f4017a91038df4ce60a7b = L.marker(
+                [34.1292, -117.7951],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_468c11c0931843c0af982ac7a56fcbce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e022651e16f4017a91038df4ce60a7b.setIcon(icon_468c11c0931843c0af982ac7a56fcbce);
+        
+    
+            marker_1e022651e16f4017a91038df4ce60a7b.bindTooltip(
+                `<div>
+                     San Dimas Canyon Community Regional Park 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cec919c78b04c77bd6861932a01dbef = L.marker(
+                [34.1274, -117.79299999999999],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_bffecc9782f3442ea2bf27c0beb52287 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0cec919c78b04c77bd6861932a01dbef.setIcon(icon_bffecc9782f3442ea2bf27c0beb52287);
+        
+    
+            marker_0cec919c78b04c77bd6861932a01dbef.bindTooltip(
+                `<div>
+                     San Dimas Canyon Community Regional Park 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30c02893dc1247afb8c2eccbc6a86c08 = L.marker(
+                [34.111999999999995, -117.9403],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_1e9663962b7b4268890b58cb6209c8ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30c02893dc1247afb8c2eccbc6a86c08.setIcon(icon_1e9663962b7b4268890b58cb6209c8ba);
+        
+    
+            marker_30c02893dc1247afb8c2eccbc6a86c08.bindTooltip(
+                `<div>
+                     Santa Fe Dam Recreation Area
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_494fa8adefde4ed0898bf5183984a624 = L.marker(
+                [34.1744, -118.50200000000001],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_203f03f3f12c4425a42c72521bdd4bbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_494fa8adefde4ed0898bf5183984a624.setIcon(icon_203f03f3f12c4425a42c72521bdd4bbc);
+        
+    
+            marker_494fa8adefde4ed0898bf5183984a624.bindTooltip(
+                `<div>
+                     Sepulveda Basin Recreation Area 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_977d32874a95432192c8b1f923ab7bef = L.marker(
+                [34.1857, -118.4835],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_9637511730344bfbb721aa13dde6e8c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_977d32874a95432192c8b1f923ab7bef.setIcon(icon_9637511730344bfbb721aa13dde6e8c6);
+        
+    
+            marker_977d32874a95432192c8b1f923ab7bef.bindTooltip(
+                `<div>
+                     Sepulveda Basin Recreation Area 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b0616d4152f433985e4ae52a1948f11 = L.marker(
+                [34.0474, -118.0648],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_10d07c63f953433eb2328575697d98f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2b0616d4152f433985e4ae52a1948f11.setIcon(icon_10d07c63f953433eb2328575697d98f3);
+        
+    
+            marker_2b0616d4152f433985e4ae52a1948f11.bindTooltip(
+                `<div>
+                     Whittier Narrows Recreation Area 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af5f4c99c58c4c0098cdf95340e11fef = L.marker(
+                [34.0374, -118.0641],
+                {}
+            ).addTo(map_dc601753779a4fbcaad79a1cdceb8f63);
+        
+    
+            var icon_d997b3917fd34607bf514f1d4bed205e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af5f4c99c58c4c0098cdf95340e11fef.setIcon(icon_d997b3917fd34607bf514f1d4bed205e);
+        
+    
+            marker_af5f4c99c58c4c0098cdf95340e11fef.bindTooltip(
+                `<div>
+                     Whittier Narrows Recreation Area 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
